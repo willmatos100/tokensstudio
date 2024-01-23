@@ -1,0 +1,452 @@
+{
+  "Brand": {
+    "element": {
+      "gray-900": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "gray-600": {
+        "value": "#5A5A5A",
+        "type": "color"
+      },
+      "gray-200": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
+      "gray-000": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "orange-600": {
+        "value": "#EB4409",
+        "type": "color"
+      },
+      "blue-700": {
+        "value": "#001E64",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#ED790B",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "gray-900": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "gray-600": {
+        "value": "#5A5A5A",
+        "type": "color"
+      },
+      "gray-200": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
+      "gray-000": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "orange-600": {
+        "value": "#EB4409",
+        "type": "color"
+      },
+      "blue-700": {
+        "value": "#001E64",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#ED790B",
+        "type": "color"
+      }
+    }
+  },
+  "Brand/Dark Mode": {
+    "element": {
+      "gray-900": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "gray-600": {
+        "value": "#5A5A5A",
+        "type": "color"
+      },
+      "gray-200": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
+      "gray-000": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "orange-600": {
+        "value": "#f97b4e",
+        "type": "color"
+      },
+      "blue-700": {
+        "value": "#99b8ff",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#f7a050",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "gray-900": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "gray-600": {
+        "value": "#5A5A5A",
+        "type": "color"
+      },
+      "gray-200": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
+      "gray-000": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "orange-600": {
+        "value": "#EB4409",
+        "type": "color"
+      },
+      "blue-700": {
+        "value": "#001E64",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#ED790B",
+        "type": "color"
+      }
+    }
+  },
+  "Brand/Light Mode": {
+    "surface": {
+      "blue-700": {
+        "value": "#001E64",
+        "type": "color"
+      },
+      "orange-600": {
+        "value": "#EB4409",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#ED790B",
+        "type": "color"
+      },
+      "Background Screen": {
+        "value": "{element.gray-000}",
+        "type": "color"
+      }
+    },
+    "element": {
+      "orange-600": {
+        "value": "#EB4409",
+        "type": "color"
+      },
+      "blue-700": {
+        "value": "#001E64",
+        "type": "color"
+      },
+      "ambar-600": {
+        "value": "#ED790B",
+        "type": "color"
+      }
+    }
+  },
+  "Theme/Saúde": {
+    "element": {
+      "PrimaryBrand": {
+        "value": "{element.orange-600}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "PrimaryBrand": {
+        "value": "{surface.orange-600}",
+        "type": "color"
+      }
+    }
+  },
+  "Theme/Odonto": {
+    "element": {
+      "PrimaryBrand": {
+        "value": "{element.blue-700}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "PrimaryBrand": {
+        "value": "{surface.blue-700}",
+        "type": "color"
+      }
+    }
+  },
+  "Mode/Light": {
+    "Surface": {
+      "Background Screen": {
+        "value": "{element.gray-000}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-000}"
+      },
+      "Background Container": {
+        "value": "{element.gray-200}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-200}"
+      }
+    },
+    "Text": {
+      "Title - Neutral": {
+        "value": "{element.gray-900}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-900}"
+      },
+      "Subtitle Neutral": {
+        "value": "{element.gray-600}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-600}"
+      }
+    },
+    "Graphics": {
+      "Icon Neutral": {
+        "value": "{element.gray-900}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-900}"
+      },
+      "Icon-Light Neutral": {
+        "value": "{element.gray-600}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-600}"
+      }
+    },
+    "Text&Graphic in BgColorful": {
+      "White": {
+        "value": "{element.gray-000}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-000}"
+      },
+      "Gray": {
+        "value": "{element.gray-900}",
+        "type": "color",
+        "parent": "Mode/Light",
+        "description": "",
+        "oldValue": "{element.gray-900}"
+      }
+    }
+  },
+  "Mode/Dark": {
+    "Surface": {
+      "Background Screen": {
+        "value": "{element.gray-900}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-900}"
+      },
+      "Background Container": {
+        "value": "{element.gray-600}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-600}"
+      }
+    },
+    "Text": {
+      "Title - Neutral": {
+        "value": "{element.gray-000}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-000}"
+      },
+      "Subtitle Neutral": {
+        "value": "{element.gray-200}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-200}"
+      }
+    },
+    "Graphics": {
+      "Icon Neutral": {
+        "value": "{element.gray-000}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-000}"
+      },
+      "Icon-Light Neutral": {
+        "value": "{element.gray-200}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-200}"
+      }
+    },
+    "Text&Graphic in BgColorful": {
+      "White": {
+        "value": "{element.gray-000}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-000}"
+      },
+      "Gray": {
+        "value": "{element.gray-900}",
+        "type": "color",
+        "parent": "Mode/Dark",
+        "description": "",
+        "oldValue": "{element.gray-900}"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "6e61da93f9eac822ea36b12d115726dadd277e11",
+      "name": "Default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Brand": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:30:615",
+      "$figmaModeId": "30:0",
+      "$figmaVariableReferences": {
+        "surface.blue-700": "a72110f6c12f541cb6b2811352b95464a192b344",
+        "element.gray-900": "515f045394afbd6c0a4472756746f9a6510ec32d",
+        "element.gray-600": "992bfa2272dae1e05a0825c57a0062b1af64836f",
+        "element.gray-200": "05d508fde5d940ed33de890aea9bfaa84fde3222",
+        "element.gray-000": "36eed996e6daa936f1996ac80c88b459c9da3fd1",
+        "surface.orange-600": "3251d2a9387a3ebe4ecd9971db77f04e333f0947",
+        "element.orange-600": "15665c8050de3ef0691017b7998a6d8e084fd07a",
+        "surface.ambar-600": "5b4087dd977516d9505fb452c74a87890e40677b",
+        "element.blue-700": "b2f6e2040a48d45d29cd337504c8627b86223888",
+        "element.ambar-600": "7f739f5ab8f0a46c961ae209d7fde937796be7ef"
+      },
+      "group": "Brand"
+    },
+    {
+      "id": "909c7ed20d479be34d3902af1d1ec6115d96aa96",
+      "name": "Saúde",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Theme/Saúde": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:30:627",
+      "$figmaModeId": "30:1",
+      "$figmaVariableReferences": {
+        "element.PrimaryBrand": "c48f45e2a080aae5736f3ef1d36a80ccfc0acc11",
+        "surface.PrimaryBrand": "bff8d78a50349d4b7be85bbd946c43b738b83615"
+      },
+      "group": "Theme"
+    },
+    {
+      "id": "40c561389820be0a4ff98ecf5f253ea7c329b4d9",
+      "name": "Odonto",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Theme/Odonto": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:30:627",
+      "$figmaModeId": "30:2",
+      "$figmaVariableReferences": {
+        "element.PrimaryBrand": "c48f45e2a080aae5736f3ef1d36a80ccfc0acc11",
+        "surface.PrimaryBrand": "bff8d78a50349d4b7be85bbd946c43b738b83615"
+      },
+      "group": "Theme"
+    },
+    {
+      "id": "bdbcd8ba47722f8fdc586a01c4b205be7c4469ed",
+      "name": "Light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Mode/Light": "enabled"
+      },
+      "group": "Mode",
+      "$figmaCollectionId": "VariableCollectionId:30:630",
+      "$figmaModeId": "30:3",
+      "$figmaVariableReferences": {
+        "Surface.Background Screen": "f420be0122e8ca28857f3b47d0f2a3a0ea86067d",
+        "Surface.Background Container": "d80d44ec7ba36999f92d0e23e01183a586a7c5d5",
+        "Text.Title - Neutral": "f9f5d1539ff2c5d93ed817c05cc413f891f2cf8d",
+        "Text.Subtitle Neutral": "8bff8502ee04153da30a7feeb7ec5b4afa9e3ea4",
+        "Graphics.Icon Neutral": "bab3a0b9b10b9c4bd2c5ea6632d7a607aade8abf",
+        "Graphics.Icon-Light Neutral": "0118e606b9fed429bd9d243a358b9b518874d2e4",
+        "Text&Graphic in BgColorful.White": "e17aeb51ed8e528e4d7359b06dd6c3b6b7789c13",
+        "Text&Graphic in BgColorful.Gray": "066bbcd93d95d19cad55d446e428742ed4e52b53"
+      }
+    },
+    {
+      "id": "2f94a3b292cfd960238e864b3bd15104016a2766",
+      "name": "Dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Mode/Dark": "enabled"
+      },
+      "group": "Mode",
+      "$figmaCollectionId": "VariableCollectionId:30:630",
+      "$figmaModeId": "30:4",
+      "$figmaVariableReferences": {
+        "Surface.Background Screen": "f420be0122e8ca28857f3b47d0f2a3a0ea86067d",
+        "Surface.Background Container": "d80d44ec7ba36999f92d0e23e01183a586a7c5d5",
+        "Text.Title - Neutral": "f9f5d1539ff2c5d93ed817c05cc413f891f2cf8d",
+        "Text.Subtitle Neutral": "8bff8502ee04153da30a7feeb7ec5b4afa9e3ea4",
+        "Graphics.Icon Neutral": "bab3a0b9b10b9c4bd2c5ea6632d7a607aade8abf",
+        "Graphics.Icon-Light Neutral": "0118e606b9fed429bd9d243a358b9b518874d2e4",
+        "Text&Graphic in BgColorful.White": "e17aeb51ed8e528e4d7359b06dd6c3b6b7789c13",
+        "Text&Graphic in BgColorful.Gray": "066bbcd93d95d19cad55d446e428742ed4e52b53"
+      }
+    },
+    {
+      "id": "1c7a88c4799bb3bed97089d7eb6bc9837da47988",
+      "name": "Light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Brand": "source"
+      },
+      "group": "Brand",
+      "$figmaCollectionId": "VariableCollectionId:30:615",
+      "$figmaModeId": "30:5",
+      "$figmaVariableReferences": {}
+    },
+    {
+      "id": "a4a8a1efc649aeb8382c680f43202aeb3d60fddb",
+      "name": "Dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Brand": "source"
+      },
+      "group": "Brand",
+      "$figmaCollectionId": "VariableCollectionId:30:615",
+      "$figmaModeId": "30:6",
+      "$figmaVariableReferences": {}
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Brand",
+      "Brand/Dark Mode",
+      "Brand/Light Mode",
+      "Theme/Saúde",
+      "Theme/Odonto",
+      "Mode/Light",
+      "Mode/Dark"
+    ]
+  }
+}
